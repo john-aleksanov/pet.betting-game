@@ -1,0 +1,8 @@
+{
+  "symbols": {
+    "+1000": {
+      "type": "bonus",
+      "impact": "extra_bonus"
+    }
+  }
+}

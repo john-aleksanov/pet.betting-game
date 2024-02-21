@@ -1,0 +1,18 @@
+{
+  "rows": 10,
+  "columns": 10,
+  "symbols": [
+    {
+      "A": {
+        "reward_multiplier": 50,
+        "type": "standard"
+      }
+    },
+    {
+      "B": {
+        "reward_multiplier": 25,
+        "type": "standard"
+      }
+    }
+  ]
+}

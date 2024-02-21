@@ -1,0 +1,35 @@
+plugins {
+    id 'application'
+}
+
+group = "org.example"
+version = "1.0-SNAPSHOT"
+
+repositories {
+    mavenCentral()
+}
+
+ext {
+    lombokVersion = '1.18.28'
+    jacksonVersion = '2.16.1'
+    junitVersion = '5.9.1'
+    assertjVersion = '3.25.2'
+    mockitoVersion = '5.10.0'
+}
+
+dependencies {
+    compileOnly "org.projectlombok:lombok:$lombokVersion"
+    annotationProcessor "org.projectlombok:lombok:$lombokVersion"
+
+    implementation "com.fasterxml.jackson.core:jackson-databind:$jacksonVersion"
+
+    testImplementation(platform("org.junit:junit-bom:$junitVersion"))
+    testImplementation  "org.junit.jupiter:junit-jupiter"
+    testImplementation "org.assertj:assertj-core:$assertjVersion"
+    testImplementation "org.mockito:mockito-core:$mockitoVersion"
+    testImplementation "org.mockito:mockito-junit-jupiter:$mockitoVersion"
+}
+
+tasks.test {
+    useJUnitPlatform()
+}

@@ -1,0 +1,8 @@
+{
+  "symbols": {
+    "5x": {
+      "type": "bonus",
+      "impact": "multiply_reward"
+    }
+  }
+}

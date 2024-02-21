@@ -1,0 +1,22 @@
+{
+  "columns": 2,
+  "rows": 2,
+  "win_combinations": [
+    {
+      "same_symbol_3_times": {
+        "reward_multiplier": 1,
+        "when": "same_symbols",
+        "count": 3,
+        "group": "same_symbols"
+      }
+    },
+    {
+      "same_symbol_4_times": {
+        "reward_multiplier": 1.5,
+        "when": "same_symbols",
+        "count": 4,
+        "group": "same_symbols"
+      }
+    }
+  ]
+}

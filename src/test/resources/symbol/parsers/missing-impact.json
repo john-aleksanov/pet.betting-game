@@ -1,0 +1,12 @@
+{
+  "symbols": {
+    "+500": {
+      "extra": 500,
+      "type": "bonus"
+    },
+    "MISS": {
+      "type": "bonus",
+      "impact": "miss"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "bonus_symbols": {
+    "symbols": {
+      "10x": "invalid",
+      "+1000": 3,
+      "MISS": 5
+    }
+  }
+}

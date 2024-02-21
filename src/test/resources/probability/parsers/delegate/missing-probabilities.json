@@ -1,0 +1,33 @@
+{
+  "standard_symbols": [
+    {
+      "row": 0,
+      "column": 0,
+      "symbols": {
+        "A": 1,
+        "B": 2
+      }
+    },
+    {
+      "row": 1,
+      "column": 0,
+      "symbols": {
+        "A": 1,
+        "B": 2
+      }
+    },
+    {
+      "row": 0,
+      "column": 1,
+      "symbols": {
+        "A": 1,
+        "B": 2
+      }
+    }
+  ],
+  "bonus_symbols": {
+    "symbols": {
+      "10x": 2
+    }
+  }
+}
